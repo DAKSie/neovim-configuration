@@ -1,0 +1,5 @@
+vim.keymap.set("n", "<C-s>", "<cmd>w<cr>", { desc = "Save file" })
+vim.keymap.set("i", "<C-s>", "<Esc><cmd>w<cr>a", { desc = "Save file" })
+vim.keymap.set("v", "<C-s>", "<cmd>w<cr>", { desc = "Save file" })
+vim.keymap.set("n", "<C-q>", "<cmd>q<cr>", { desc = "Quit window" })
+vim.keymap.set("n", "<F5>", "<cmd>make<cr>", { desc = "Build project" })
